@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+header {
+  text-align: center;
+  background-color: #0a9396;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+section {
+  margin-top: 20px;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #e0fbfc;
+  }
+
+  section {
+    padding: 0.5rem;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+.carousel {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carousel-buttons {
+  margin-top: 0.5rem;
+}
+
+.carousel-buttons button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+.carousel {
+  text-align: center;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-buttons {
+  margin-top: 0.5rem;
+}
+
+.carousel-buttons button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.carousel-buttons button:hover {
+  background-color: #005f73;
+}
+

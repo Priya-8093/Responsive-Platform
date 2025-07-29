@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Quiz & API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Responsive Quiz and API Fetch</h1>
+  </header>
+
+  <!-- Quiz Section -->
+  <section class="quiz-section">
+    <h2>Quiz</h2>
+    <div id="quiz">
+      <p id="question">Question will appear here</p>
+      <button onclick="answer(true)">True</button>
+      <button onclick="answer(false)">False</button>
+      <p id="score"></p>
+    </div>
+  </section>
+
+  <!-- API Data Section -->
+  <section class="api-section">
+    <h2>Joke of the Moment</h2>
+    <button onclick="fetchJoke()">Get Joke</button>
+    <p id="joke">Click the button to fetch a joke!</p>
+  </section>
+  <section class="carousel-section">
+  <h2>Image Carousel</h2>
+  <div class="carousel">
+    <img id="carousel-img" src="https://picsum.photos/id/1015/600/300" alt="carousel image" />
+    <div class="carousel-buttons">
+      <button onclick="prevImage()">⟨ Prev</button>
+      <button onclick="nextImage()">Next ⟩</button>
+    </div>
+  </div>
+</section>
+
+ 
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
